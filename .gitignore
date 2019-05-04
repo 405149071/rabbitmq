@@ -9,5 +9,5 @@ public/logs/
 public/uploads/image
 public/uploads/qr_code
 public/uploads/uemeditor
-
+rabbitmq/out
 ~~
