@@ -1,0 +1,13 @@
+
+/.idea
+/.vscode
+*.log
+.env
+.DS_Store
+runtime/*
+public/logs/
+public/uploads/image
+public/uploads/qr_code
+public/uploads/uemeditor
+
+~~
