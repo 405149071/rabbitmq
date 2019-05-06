@@ -20,7 +20,7 @@ public class Send {
         channel.queueDeclare(QUEUE_NAME,false,false,false,null);
         
         String msg = "hello tx message";
-        
+        // 事务，这种模式降低了吞吐量，多发了请求
         try {
             channel.txSelect();
 
